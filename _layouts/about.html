@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<main class="post">
+<header>
+<p class="meta">Current as of {% if page.update %}{{ page.update | date_to_string }}{% endif %}</p>
+<h2 class="title">{{ page.title }}</h2>
+</header>
+
+<article>
+{{ content }}
+</article>
+</main>

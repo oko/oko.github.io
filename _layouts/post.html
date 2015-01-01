@@ -3,7 +3,7 @@ layout: default
 ---
 <main class="post">
 <header>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date_to_string }}{% if page.updated %} &mdash; Updated {{ page.updated | date_to_string }}{% endif %}</p>
 <h2 class="title">{{ page.title }}</h2>
 </header>
 

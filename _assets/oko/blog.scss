@@ -1,3 +1,4 @@
+/* Color scheme variables */
 $cs1: #2C3E50;
 $cs2: #E74C3C;
 $cs3: #ECF0F1;
@@ -5,15 +6,20 @@ $cs4: #3498DB;
 $cs5: #2980B9;
 
 
+/*
+Base text and header styles
+*/
 html,body {
 	font-family: "adobe-caslon-pro";
 	font-weight: 400;
 }
-
 h1,h2,h3,h4,h5,h6 {
 	font-family: "futura-pt";
 }
 
+/*
+Add some variety to headers
+*/
 h1,h2,h3 {
 	font-weight: 700;
 	color: $cs1;
@@ -23,6 +29,9 @@ h4,h5,h6 {
 	color: $cs4;
 }
 
+/*
+Clean horizontal rules
+*/
 hr {
 	border: none;
 	border-bottom: 1px solid #eee;
@@ -64,6 +73,23 @@ a {
 				right: 0;
 				font-style: italic;
 				color: gray;
+			}
+			ul#links {
+				position: absolute;
+				bottom: 1em;
+				right: 0;
+				text-transform: uppercase;
+				font-family: "futura-pt";
+				font-weight: 300;
+				text-transform: uppercase;
+				&> li {
+					display: inline-block;
+					padding: 0 1em;
+					border-right: 1px solid #ccc;
+					&:last-child {
+						border-right: none;
+					}
+				}
 			}
 		}
 	}
