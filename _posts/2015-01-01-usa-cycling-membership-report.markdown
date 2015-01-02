@@ -42,6 +42,8 @@ There are no pretty graphs yet.
  * **Cat 4**: 12881 riders
  * **Cat 5**: 43727 riders
 
+Unsurprisingly, roughly 70 percent of USAC members are track category fives. Velodromes are few and far between in the United States, restricting category progression to those who are close enough to regularly attend races.
+
 ### Riders by cx category
 
  * **Pro**: 175 riders
@@ -50,6 +52,8 @@ There are no pretty graphs yet.
  * **Cat 3**: 11448 riders
  * **Cat 4**: 27507 riders
  * **Cat 5**: 15190 riders
+
+USA Cycling now recognizes Category 4 as the lowest cyclocross category, but has not retroactively applied this upgrade to existing Category 5 licenses.
 
 ### Riders by state:
  * **AK**: 23 riders
@@ -104,3 +108,5 @@ There are no pretty graphs yet.
  * **WV**: 104 riders
  * **WY**: 95 riders
  * **None**: 23 riders
+
+State membership trends upwards in states with warm climates and/or large populations. Colorado is an exception to this, with the second-largest membership in the country. California takes the largest slice of the membership pie, with more than double the ridership of any other state.
