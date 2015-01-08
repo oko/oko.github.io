@@ -137,6 +137,12 @@ a {
     article {
         margin: auto 1em;
     }
+    img {
+        border-radius: 3px;
+        border: 1px solid gray;
+        border-top: 1px solid #ccc;
+        box-shadow: 0 0 3px gray;
+    }
 }
 
 .clearfix {
