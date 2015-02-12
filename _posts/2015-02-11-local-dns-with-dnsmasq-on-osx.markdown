@@ -65,4 +65,5 @@ It's useful to be able to test web applications during development with hostname
           flags    : Request A records, Request AAAA records
           reach    : Reachable,Local Address
 
-You should now be able to start up a local development server and browse to it at `http://localhost.dev:PORT`. Run `python -m SimpleHTTPServer 8080` in your home directory and you should be able to see its contents at [`localhost.dev:8080`](http://localhost.dev:8080)
+
+You should now be able to start up a local development server and browse to it at `http://localhost.dev:PORT`. For example, run `python -m SimpleHTTPServer 8080` in your home directory and you should be able to see its contents at [`localhost.dev:8080`](http://localhost.dev:8080).
