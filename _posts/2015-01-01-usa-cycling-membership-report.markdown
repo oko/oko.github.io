@@ -4,9 +4,9 @@ title: "2014 USA Cycling Membership Report."
 #updated: 2015-01-01 18:00:00 -0500
 ---
 
-This is an analysis of the USA Cycling membership as of December 30, 2014.
+This is a breakdown of the USA Cycling membership as of December 30, 2014.
 
-There are no pretty graphs yet.
+There are no pretty graphs nor in-depth analysis yet. Just numbers.
 
 ### Total riders: 60139
  * **Male**: 51980
@@ -109,4 +109,4 @@ USA Cycling now recognizes Category 4 as the lowest cyclocross category, but has
  * **WY**: 95 riders
  * **None**: 23 riders
 
-State membership trends upwards in states with warm climates and/or large populations. Colorado is an exception to this, with the second-largest membership in the country. California takes the largest slice of the membership pie, with more than double the ridership of any other state.
+State membership trends upwards in states with warm climates and/or large populations. Colorado is an obvious exception to this, with the second-largest membership in the country. California takes the largest slice of the membership pie, with more than double the ridership of any other state.
