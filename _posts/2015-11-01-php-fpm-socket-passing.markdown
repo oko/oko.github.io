@@ -26,5 +26,7 @@ subprocess.call(["/usr/bin/sed", "-i",
                  "/etc/php-fpm.conf"])
 
 # Exec PHP-FPM in-place
-os.execve("/usr/sbin/php-fpm", ["/usr/sbin/php-fpm"], {'FPM_SOCKETS': '%s:%d=%d' % (addr, port, fd)})
+os.execve("/usr/sbin/php-fpm",
+          ["/usr/sbin/php-fpm"],
+          {'FPM_SOCKETS': '%s:%d=%d' % (addr, port, fd)})
 ```
