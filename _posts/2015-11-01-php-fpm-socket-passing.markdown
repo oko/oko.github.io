@@ -21,7 +21,9 @@ addr, port = s.getsockname()
 fd = s.fileno()
 
 # Update configuration
-subprocess.call(["/usr/bin/sed", "-i", "s/^listen[ ]*=.*/listen = %s:%d/" % (addr, port), "/etc/php-fpm.conf"])
+subprocess.call(["/usr/bin/sed", "-i",
+                 "s/^listen[ ]*=.*/listen = %s:%d/" % (addr, port),
+                 "/etc/php-fpm.conf"])
 
 # Exec PHP-FPM in-place
 os.execve("/usr/sbin/php-fpm", ["/usr/sbin/php-fpm"], {'FPM_SOCKETS': '%s:%d=%d' % (addr, port, fd)})
